@@ -1,0 +1,2 @@
+# BeautyPageViewController
+HMSegmentedControl搭配UIPageViewController實現左右滑動選擇呈現頁面
