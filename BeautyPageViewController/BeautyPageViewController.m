@@ -23,9 +23,12 @@
 - (void)viewDidLoad {
 
     [super viewDidLoad];
-
-    // 填寫StoryBoard id
-    _viewcontrollersArr = [NSArray arrayWithObjects:@"FirstPageViewController", @"SecondPageViewController", @"ThirdPageViewController", @"FourPageViewController", nil];
+    
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    // 加入對應的VC
+    _viewcontrollersArr = [NSArray arrayWithObjects:[storyBoard instantiateViewControllerWithIdentifier:@"FirstPageViewController"], [storyBoard instantiateViewControllerWithIdentifier:@"SecondPageViewController"], [storyBoard instantiateViewControllerWithIdentifier:@"ThirdPageViewController"], [storyBoard instantiateViewControllerWithIdentifier:@"FourPageViewController"], nil];
+    
     // 填寫Segment的標題
     _segmentTitleArr = [NSArray arrayWithObjects:@"First", @"Second", @"Third", @"Fourth", nil];
     
@@ -33,6 +36,9 @@
     [self setHMSegmentControl:_mainSegmentControl];
     
     [_mainSegmentControl addTarget:self action:@selector(manageTransferSegmentAction:) forControlEvents:UIControlEventValueChanged];
+    
+    [self pageViewController];
+    [self.view addSubview:_mainSegmentControl];
 
 }
 
@@ -54,7 +60,7 @@
 
 - (void)setHMSegmentControl:(HMSegmentedControl *)inputControl {
  
-    inputControl.frame = CGRectMake(0, [UIApplication sharedApplication].statusBarFrame.size.height, SCREEN_WIDTH, adaptX(50));
+    inputControl.frame = CGRectMake(0, [UIApplication sharedApplication].statusBarFrame.size.height, SCREEN_WIDTH, [UIApplication sharedApplication].statusBarFrame.size.height + adaptX(60));
     inputControl.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleRightMargin;
     inputControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationNone;
     inputControl.selectionStyle = HMSegmentedControlSelectionStyleTextWidthStripe;
@@ -62,7 +68,7 @@
     inputControl.backgroundColor = [UIColor colorWithRed:173.0/255.0 green:217.0/255.0 blue:237.0/255.0 alpha:1.0];
     inputControl.selectedTitleTextAttributes = @{NSForegroundColorAttributeName : [UIColor darkGrayColor]};
     inputControl.segmentEdgeInset = UIEdgeInsetsMake(0, 20, 0, 20);
-    inputControl.titleTextAttributes = @{NSFontAttributeName : [UIFont fontWithName:@"Agency FB" size: 20],NSForegroundColorAttributeName : [UIColor whiteColor]};
+    inputControl.titleTextAttributes = @{NSFontAttributeName : [UIFont fontWithName:@"Helvetica" size: 20],NSForegroundColorAttributeName : [UIColor whiteColor]};
     
 }
 
@@ -87,7 +93,22 @@
 
 - (void)manageTransferSegmentAction:(id)sender {
  
+    UIViewController *vc = [_viewcontrollersArr objectAtIndex:[sender selectedSegmentIndex]];
     
+    if ([sender selectedSegmentIndex] > ld_currentIndex) {
+        
+        [self.pageViewController setViewControllers:@[vc] direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:^(BOOL finished) {
+            
+        }];
+        
+    } else {
+        
+        [self.pageViewController setViewControllers:@[vc] direction:UIPageViewControllerNavigationDirectionReverse animated:YES completion:^(BOOL finished) {
+            
+        }];
+    }
+    
+    ld_currentIndex = [sender selectedSegmentIndex];
     
 }
 

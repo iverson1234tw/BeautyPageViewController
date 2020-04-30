@@ -480,7 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3VX9PHNQX;
+				DEVELOPMENT_TEAM = K2499D8WGX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeautyPageViewController/BeautyPageViewController-Prefix.pch";
 				INFOPLIST_FILE = BeautyPageViewController/Info.plist;
@@ -499,7 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3VX9PHNQX;
+				DEVELOPMENT_TEAM = K2499D8WGX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeautyPageViewController/BeautyPageViewController-Prefix.pch";
 				INFOPLIST_FILE = BeautyPageViewController/Info.plist;
