@@ -25,9 +25,9 @@
     [super viewDidLoad];
 
     // 填寫StoryBoard id
-    _viewcontrollersArr = [NSArray arrayWithObjects:@"", @"", @"", @"", nil];
+    _viewcontrollersArr = [NSArray arrayWithObjects:@"FirstPageViewController", @"SecondPageViewController", @"ThirdPageViewController", @"FourPageViewController", nil];
     // 填寫Segment的標題
-    _segmentTitleArr = [NSArray arrayWithObjects:@"", @"", @"", @"", nil];
+    _segmentTitleArr = [NSArray arrayWithObjects:@"First", @"Second", @"Third", @"Fourth", nil];
     
     _mainSegmentControl = [[HMSegmentedControl alloc] initWithSectionTitles:_segmentTitleArr];
     [self setHMSegmentControl:_mainSegmentControl];

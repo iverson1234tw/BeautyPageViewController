@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BB171753245AAA4D00BAEB15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171752245AAA4D00BAEB15 /* AppDelegate.m */; };
-		BB171756245AAA4D00BAEB15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171755245AAA4D00BAEB15 /* ViewController.m */; };
 		BB171759245AAA4D00BAEB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB171757245AAA4D00BAEB15 /* Main.storyboard */; };
 		BB17175B245AAA4E00BAEB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB17175A245AAA4E00BAEB15 /* Assets.xcassets */; };
 		BB17175E245AAA4E00BAEB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB17175C245AAA4E00BAEB15 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,10 @@
 		BB171776245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171775245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.m */; };
 		BB17178E245AAEBB00BAEB15 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17178D245AAEBB00BAEB15 /* HMSegmentedControl.m */; };
 		BB171797245AC5D400BAEB15 /* BeautyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171796245AC5D400BAEB15 /* BeautyPageViewController.m */; };
+		BB17179A245AD21000BAEB15 /* FirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171799245AD21000BAEB15 /* FirstPageViewController.m */; };
+		BB17179D245AD21F00BAEB15 /* SecondPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17179C245AD21F00BAEB15 /* SecondPageViewController.m */; };
+		BB1717A0245AD22A00BAEB15 /* ThirdPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17179F245AD22A00BAEB15 /* ThirdPageViewController.m */; };
+		BB1717A3245AD23600BAEB15 /* FourPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1717A2245AD23600BAEB15 /* FourPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		BB17174E245AAA4D00BAEB15 /* BeautyPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB171751245AAA4D00BAEB15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB171752245AAA4D00BAEB15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BB171754245AAA4D00BAEB15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BB171755245AAA4D00BAEB15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BB171758245AAA4D00BAEB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB17175A245AAA4E00BAEB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB17175D245AAA4E00BAEB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +59,14 @@
 		BB17178D245AAEBB00BAEB15 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 		BB171795245AC5D400BAEB15 /* BeautyPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautyPageViewController.h; sourceTree = "<group>"; };
 		BB171796245AC5D400BAEB15 /* BeautyPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyPageViewController.m; sourceTree = "<group>"; };
+		BB171798245AD21000BAEB15 /* FirstPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstPageViewController.h; sourceTree = "<group>"; };
+		BB171799245AD21000BAEB15 /* FirstPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPageViewController.m; sourceTree = "<group>"; };
+		BB17179B245AD21F00BAEB15 /* SecondPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondPageViewController.h; sourceTree = "<group>"; };
+		BB17179C245AD21F00BAEB15 /* SecondPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondPageViewController.m; sourceTree = "<group>"; };
+		BB17179E245AD22A00BAEB15 /* ThirdPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdPageViewController.h; sourceTree = "<group>"; };
+		BB17179F245AD22A00BAEB15 /* ThirdPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdPageViewController.m; sourceTree = "<group>"; };
+		BB1717A1245AD23600BAEB15 /* FourPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourPageViewController.h; sourceTree = "<group>"; };
+		BB1717A2245AD23600BAEB15 /* FourPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +120,16 @@
 				BB17178B245AAEAE00BAEB15 /* HMSegmentedControl */,
 				BB171751245AAA4D00BAEB15 /* AppDelegate.h */,
 				BB171752245AAA4D00BAEB15 /* AppDelegate.m */,
-				BB171754245AAA4D00BAEB15 /* ViewController.h */,
-				BB171755245AAA4D00BAEB15 /* ViewController.m */,
 				BB171795245AC5D400BAEB15 /* BeautyPageViewController.h */,
 				BB171796245AC5D400BAEB15 /* BeautyPageViewController.m */,
+				BB171798245AD21000BAEB15 /* FirstPageViewController.h */,
+				BB171799245AD21000BAEB15 /* FirstPageViewController.m */,
+				BB17179B245AD21F00BAEB15 /* SecondPageViewController.h */,
+				BB17179C245AD21F00BAEB15 /* SecondPageViewController.m */,
+				BB17179E245AD22A00BAEB15 /* ThirdPageViewController.h */,
+				BB17179F245AD22A00BAEB15 /* ThirdPageViewController.m */,
+				BB1717A1245AD23600BAEB15 /* FourPageViewController.h */,
+				BB1717A2245AD23600BAEB15 /* FourPageViewController.m */,
 				BB171757245AAA4D00BAEB15 /* Main.storyboard */,
 				BB17175A245AAA4E00BAEB15 /* Assets.xcassets */,
 				BB17175C245AAA4E00BAEB15 /* LaunchScreen.storyboard */,
@@ -282,11 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB171756245AAA4D00BAEB15 /* ViewController.m in Sources */,
 				BB171797245AC5D400BAEB15 /* BeautyPageViewController.m in Sources */,
+				BB1717A0245AD22A00BAEB15 /* ThirdPageViewController.m in Sources */,
 				BB171761245AAA4E00BAEB15 /* main.m in Sources */,
+				BB1717A3245AD23600BAEB15 /* FourPageViewController.m in Sources */,
 				BB171753245AAA4D00BAEB15 /* AppDelegate.m in Sources */,
+				BB17179D245AD21F00BAEB15 /* SecondPageViewController.m in Sources */,
 				BB17178E245AAEBB00BAEB15 /* HMSegmentedControl.m in Sources */,
+				BB17179A245AD21000BAEB15 /* FirstPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

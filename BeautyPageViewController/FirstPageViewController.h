@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstPageViewController.h
 //  BeautyPageViewController
 //
 //  Created by iverson1234tw on 2020/4/30.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
-
+@interface FirstPageViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
