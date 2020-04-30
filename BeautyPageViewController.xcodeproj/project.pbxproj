@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB171753245AAA4D00BAEB15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171752245AAA4D00BAEB15 /* AppDelegate.m */; };
+		BB171756245AAA4D00BAEB15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171755245AAA4D00BAEB15 /* ViewController.m */; };
+		BB171759245AAA4D00BAEB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB171757245AAA4D00BAEB15 /* Main.storyboard */; };
+		BB17175B245AAA4E00BAEB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB17175A245AAA4E00BAEB15 /* Assets.xcassets */; };
+		BB17175E245AAA4E00BAEB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB17175C245AAA4E00BAEB15 /* LaunchScreen.storyboard */; };
+		BB171761245AAA4E00BAEB15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171760245AAA4E00BAEB15 /* main.m */; };
+		BB17176B245AAA4E00BAEB15 /* BeautyPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17176A245AAA4E00BAEB15 /* BeautyPageViewControllerTests.m */; };
+		BB171776245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171775245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB171767245AAA4E00BAEB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB171746245AAA4D00BAEB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB17174D245AAA4D00BAEB15;
+			remoteInfo = BeautyPageViewController;
+		};
+		BB171772245AAA4E00BAEB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB171746245AAA4D00BAEB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB17174D245AAA4D00BAEB15;
+			remoteInfo = BeautyPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB17174E245AAA4D00BAEB15 /* BeautyPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB171751245AAA4D00BAEB15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB171752245AAA4D00BAEB15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB171754245AAA4D00BAEB15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB171755245AAA4D00BAEB15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB171758245AAA4D00BAEB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB17175A245AAA4E00BAEB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB17175D245AAA4E00BAEB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB17175F245AAA4E00BAEB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB171760245AAA4E00BAEB15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB171766245AAA4E00BAEB15 /* BeautyPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB17176A245AAA4E00BAEB15 /* BeautyPageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyPageViewControllerTests.m; sourceTree = "<group>"; };
+		BB17176C245AAA4E00BAEB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB171771245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB171775245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyPageViewControllerUITests.m; sourceTree = "<group>"; };
+		BB171777245AAA4E00BAEB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB17174B245AAA4D00BAEB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB171763245AAA4E00BAEB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB17176E245AAA4E00BAEB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB171745245AAA4D00BAEB15 = {
+			isa = PBXGroup;
+			children = (
+				BB171750245AAA4D00BAEB15 /* BeautyPageViewController */,
+				BB171769245AAA4E00BAEB15 /* BeautyPageViewControllerTests */,
+				BB171774245AAA4E00BAEB15 /* BeautyPageViewControllerUITests */,
+				BB17174F245AAA4D00BAEB15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB17174F245AAA4D00BAEB15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB17174E245AAA4D00BAEB15 /* BeautyPageViewController.app */,
+				BB171766245AAA4E00BAEB15 /* BeautyPageViewControllerTests.xctest */,
+				BB171771245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB171750245AAA4D00BAEB15 /* BeautyPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB171751245AAA4D00BAEB15 /* AppDelegate.h */,
+				BB171752245AAA4D00BAEB15 /* AppDelegate.m */,
+				BB171754245AAA4D00BAEB15 /* ViewController.h */,
+				BB171755245AAA4D00BAEB15 /* ViewController.m */,
+				BB171757245AAA4D00BAEB15 /* Main.storyboard */,
+				BB17175A245AAA4E00BAEB15 /* Assets.xcassets */,
+				BB17175C245AAA4E00BAEB15 /* LaunchScreen.storyboard */,
+				BB17175F245AAA4E00BAEB15 /* Info.plist */,
+				BB171760245AAA4E00BAEB15 /* main.m */,
+			);
+			path = BeautyPageViewController;
+			sourceTree = "<group>";
+		};
+		BB171769245AAA4E00BAEB15 /* BeautyPageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB17176A245AAA4E00BAEB15 /* BeautyPageViewControllerTests.m */,
+				BB17176C245AAA4E00BAEB15 /* Info.plist */,
+			);
+			path = BeautyPageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		BB171774245AAA4E00BAEB15 /* BeautyPageViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB171775245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.m */,
+				BB171777245AAA4E00BAEB15 /* Info.plist */,
+			);
+			path = BeautyPageViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB17174D245AAA4D00BAEB15 /* BeautyPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB17177A245AAA4E00BAEB15 /* Build configuration list for PBXNativeTarget "BeautyPageViewController" */;
+			buildPhases = (
+				BB17174A245AAA4D00BAEB15 /* Sources */,
+				BB17174B245AAA4D00BAEB15 /* Frameworks */,
+				BB17174C245AAA4D00BAEB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautyPageViewController;
+			productName = BeautyPageViewController;
+			productReference = BB17174E245AAA4D00BAEB15 /* BeautyPageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB171765245AAA4E00BAEB15 /* BeautyPageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB17177D245AAA4E00BAEB15 /* Build configuration list for PBXNativeTarget "BeautyPageViewControllerTests" */;
+			buildPhases = (
+				BB171762245AAA4E00BAEB15 /* Sources */,
+				BB171763245AAA4E00BAEB15 /* Frameworks */,
+				BB171764245AAA4E00BAEB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB171768245AAA4E00BAEB15 /* PBXTargetDependency */,
+			);
+			name = BeautyPageViewControllerTests;
+			productName = BeautyPageViewControllerTests;
+			productReference = BB171766245AAA4E00BAEB15 /* BeautyPageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB171770245AAA4E00BAEB15 /* BeautyPageViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB171780245AAA4E00BAEB15 /* Build configuration list for PBXNativeTarget "BeautyPageViewControllerUITests" */;
+			buildPhases = (
+				BB17176D245AAA4E00BAEB15 /* Sources */,
+				BB17176E245AAA4E00BAEB15 /* Frameworks */,
+				BB17176F245AAA4E00BAEB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB171773245AAA4E00BAEB15 /* PBXTargetDependency */,
+			);
+			name = BeautyPageViewControllerUITests;
+			productName = BeautyPageViewControllerUITests;
+			productReference = BB171771245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB171746245AAA4D00BAEB15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = josh.chen;
+				TargetAttributes = {
+					BB17174D245AAA4D00BAEB15 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BB171765245AAA4E00BAEB15 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BB17174D245AAA4D00BAEB15;
+					};
+					BB171770245AAA4E00BAEB15 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BB17174D245AAA4D00BAEB15;
+					};
+				};
+			};
+			buildConfigurationList = BB171749245AAA4D00BAEB15 /* Build configuration list for PBXProject "BeautyPageViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB171745245AAA4D00BAEB15;
+			productRefGroup = BB17174F245AAA4D00BAEB15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB17174D245AAA4D00BAEB15 /* BeautyPageViewController */,
+				BB171765245AAA4E00BAEB15 /* BeautyPageViewControllerTests */,
+				BB171770245AAA4E00BAEB15 /* BeautyPageViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB17174C245AAA4D00BAEB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB17175E245AAA4E00BAEB15 /* LaunchScreen.storyboard in Resources */,
+				BB17175B245AAA4E00BAEB15 /* Assets.xcassets in Resources */,
+				BB171759245AAA4D00BAEB15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB171764245AAA4E00BAEB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB17176F245AAA4E00BAEB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB17174A245AAA4D00BAEB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB171756245AAA4D00BAEB15 /* ViewController.m in Sources */,
+				BB171761245AAA4E00BAEB15 /* main.m in Sources */,
+				BB171753245AAA4D00BAEB15 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB171762245AAA4E00BAEB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB17176B245AAA4E00BAEB15 /* BeautyPageViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB17176D245AAA4E00BAEB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB171776245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB171768245AAA4E00BAEB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB17174D245AAA4D00BAEB15 /* BeautyPageViewController */;
+			targetProxy = BB171767245AAA4E00BAEB15 /* PBXContainerItemProxy */;
+		};
+		BB171773245AAA4E00BAEB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB17174D245AAA4D00BAEB15 /* BeautyPageViewController */;
+			targetProxy = BB171772245AAA4E00BAEB15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB171757245AAA4D00BAEB15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB171758245AAA4D00BAEB15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB17175C245AAA4E00BAEB15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB17175D245AAA4E00BAEB15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB171778245AAA4E00BAEB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB171779245AAA4E00BAEB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB17177B245AAA4E00BAEB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3VX9PHNQX;
+				INFOPLIST_FILE = BeautyPageViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josh.chen.BeautyPageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB17177C245AAA4E00BAEB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3VX9PHNQX;
+				INFOPLIST_FILE = BeautyPageViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josh.chen.BeautyPageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB17177E245AAA4E00BAEB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3VX9PHNQX;
+				INFOPLIST_FILE = BeautyPageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josh.chen.BeautyPageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautyPageViewController.app/BeautyPageViewController";
+			};
+			name = Debug;
+		};
+		BB17177F245AAA4E00BAEB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3VX9PHNQX;
+				INFOPLIST_FILE = BeautyPageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josh.chen.BeautyPageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautyPageViewController.app/BeautyPageViewController";
+			};
+			name = Release;
+		};
+		BB171781245AAA4E00BAEB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3VX9PHNQX;
+				INFOPLIST_FILE = BeautyPageViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josh.chen.BeautyPageViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeautyPageViewController;
+			};
+			name = Debug;
+		};
+		BB171782245AAA4E00BAEB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3VX9PHNQX;
+				INFOPLIST_FILE = BeautyPageViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = josh.chen.BeautyPageViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeautyPageViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB171749245AAA4D00BAEB15 /* Build configuration list for PBXProject "BeautyPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB171778245AAA4E00BAEB15 /* Debug */,
+				BB171779245AAA4E00BAEB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB17177A245AAA4E00BAEB15 /* Build configuration list for PBXNativeTarget "BeautyPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB17177B245AAA4E00BAEB15 /* Debug */,
+				BB17177C245AAA4E00BAEB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB17177D245AAA4E00BAEB15 /* Build configuration list for PBXNativeTarget "BeautyPageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB17177E245AAA4E00BAEB15 /* Debug */,
+				BB17177F245AAA4E00BAEB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB171780245AAA4E00BAEB15 /* Build configuration list for PBXNativeTarget "BeautyPageViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB171781245AAA4E00BAEB15 /* Debug */,
+				BB171782245AAA4E00BAEB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB171746245AAA4D00BAEB15 /* Project object */;
+}
