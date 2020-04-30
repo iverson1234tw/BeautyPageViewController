@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BeautyPageViewController.h
 //  BeautyPageViewController
 //
 //  Created by iverson1234tw on 2020/4/30.
@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HMSegmentedControl.h"
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
+
+@interface BeautyPageViewController : UIViewController
 
 
 
 @end
 
+NS_ASSUME_NONNULL_END

@@ -15,6 +15,8 @@
 		BB171761245AAA4E00BAEB15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171760245AAA4E00BAEB15 /* main.m */; };
 		BB17176B245AAA4E00BAEB15 /* BeautyPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17176A245AAA4E00BAEB15 /* BeautyPageViewControllerTests.m */; };
 		BB171776245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171775245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.m */; };
+		BB17178E245AAEBB00BAEB15 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17178D245AAEBB00BAEB15 /* HMSegmentedControl.m */; };
+		BB171797245AC5D400BAEB15 /* BeautyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB171796245AC5D400BAEB15 /* BeautyPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		BB171771245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB171775245AAA4E00BAEB15 /* BeautyPageViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyPageViewControllerUITests.m; sourceTree = "<group>"; };
 		BB171777245AAA4E00BAEB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB17178A245AAD2000BAEB15 /* BeautyPageViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeautyPageViewController-Prefix.pch"; sourceTree = "<group>"; };
+		BB17178C245AAEBB00BAEB15 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		BB17178D245AAEBB00BAEB15 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		BB171795245AC5D400BAEB15 /* BeautyPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautyPageViewController.h; sourceTree = "<group>"; };
+		BB171796245AC5D400BAEB15 /* BeautyPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautyPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +108,18 @@
 		BB171750245AAA4D00BAEB15 /* BeautyPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BB17178B245AAEAE00BAEB15 /* HMSegmentedControl */,
 				BB171751245AAA4D00BAEB15 /* AppDelegate.h */,
 				BB171752245AAA4D00BAEB15 /* AppDelegate.m */,
 				BB171754245AAA4D00BAEB15 /* ViewController.h */,
 				BB171755245AAA4D00BAEB15 /* ViewController.m */,
+				BB171795245AC5D400BAEB15 /* BeautyPageViewController.h */,
+				BB171796245AC5D400BAEB15 /* BeautyPageViewController.m */,
 				BB171757245AAA4D00BAEB15 /* Main.storyboard */,
 				BB17175A245AAA4E00BAEB15 /* Assets.xcassets */,
 				BB17175C245AAA4E00BAEB15 /* LaunchScreen.storyboard */,
 				BB17175F245AAA4E00BAEB15 /* Info.plist */,
+				BB17178A245AAD2000BAEB15 /* BeautyPageViewController-Prefix.pch */,
 				BB171760245AAA4E00BAEB15 /* main.m */,
 			);
 			path = BeautyPageViewController;
@@ -130,6 +141,15 @@
 				BB171777245AAA4E00BAEB15 /* Info.plist */,
 			);
 			path = BeautyPageViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		BB17178B245AAEAE00BAEB15 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				BB17178C245AAEBB00BAEB15 /* HMSegmentedControl.h */,
+				BB17178D245AAEBB00BAEB15 /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB171756245AAA4D00BAEB15 /* ViewController.m in Sources */,
+				BB171797245AC5D400BAEB15 /* BeautyPageViewController.m in Sources */,
 				BB171761245AAA4E00BAEB15 /* main.m in Sources */,
 				BB171753245AAA4D00BAEB15 /* AppDelegate.m in Sources */,
+				BB17178E245AAEBB00BAEB15 /* HMSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +382,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -417,6 +441,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -437,6 +463,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q3VX9PHNQX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeautyPageViewController/BeautyPageViewController-Prefix.pch";
 				INFOPLIST_FILE = BeautyPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +482,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q3VX9PHNQX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeautyPageViewController/BeautyPageViewController-Prefix.pch";
 				INFOPLIST_FILE = BeautyPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
